@@ -1,0 +1,85 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: coral;
+    line-height: 1.4;
+}
+#landingPage {
+    background-image:url('./img/flowers_background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+     /* use of flexbox */
+     display: flex;
+     flex-direction: column;
+     /* moves text to center */
+     justify-content: center;
+     /* align items to center */
+     align-items: center;
+     text-align: center;
+     padding: 0 20px;
+}
+#landingPage h1 {
+    font-size: 3em;
+    line-height: 1.2;
+}
+
+#landingPage p{
+    font-size: 2em;
+}
+
+#landingPage .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: coral;
+    border: white 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+#landingPage .button:hover{
+    background: coral;
+    color: white;
+}
+#about h2, .headshot {
+    text-align: center;
+}
+.headshot{
+    width: 30vh;
+    height: 30vh;
+    float: left;
+    margin: 10px;
+}
+
+#about {
+    padding: 20px;
+    color: white;
+    background-color: coral;
+    height: 70vh;
+}
+
+#about p, h3{
+    margin: 10px;
+}
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+} */
+/* .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+} */
+
+/* .row:after {
+    content: "";
+  display: table;
+  clear: both;
+} */
