@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jen Huynh Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
      <header id="landingPage">
          <h1>Hi, I'm Jen.</h1>
-         <p class="headline">A former teacher turned software engineer.</p>
+         <p class="headline">Former teacher turned Software Engineer</p>
          <a href="#about" class="button">Read More</a>
      </header>
     <section id="about">
@@ -24,20 +27,37 @@
                 </p>
     </section>
     <div id="contact">
-      <div class="row">
-        <div class="column"></div>
-        <h2>Connect with Jen</h2>
-            <p>Connect with me on GitHub:<a href="https://github.com/jenhuynh"> @jenhuynh</a></p>
-            <p>Connect with me on Twitter:<a href="https://twitter.com/JenHuynh19"> @jenhuynh19</a></p>
+        <div class="row">
+            <div class="column">
+            <h2>Connect with Jen</h2>
+                <p>Connect with me on GitHub:<a href="https://github.com/jenhuynh" target="_blank"> @jenhuynh</a></p>
+                <p>Connect with me on Twitter:<a href="https://twitter.com/JenHuynh19" target="_blank"> @jenhuynh19</a></p>
+            </div>
+            <section>
+            <div class="column">
+                    <form id="form">
+                    <p>Get in Contact with Jen!</p>
+                    <!-- first name text form-->
+                    <p><label for="firstName">First Name:</label>
+                        <input type="text" id="new_first_name" class="firstName"  placeholder="Enter first name" name="firstname"required></p>
+                    <button class="firstNameButton" type= "button" value="firstName">Submit First Name</button>
+                    
+                    <!-- last name text form -->
+                    <p><label for="lastName">Last Name:</label>
+                        <input type="text" id="new_last_name" class="lastName" placeholder="Enter last name" name="lastname" required></p>
+                    <button class="lastNameButton" type="button" value="lastName">Submit Last Name</button>
+                    
+                    <!-- email form -->
+                    <p><label for="email">Email:</label> 
+                        <input id ="new_email" class="email" type="text" placeholder="Enter Email" name="email" required></p>
+                    <button class="emailButton" type= "button" value="email">Submit Email</button>
+                    
+                        <input type="submit" value="Submit">
+                    </form>
+                    <script src="script.js"></script>
+                </div>
+             </div>
         </div>
-        <div class="column">
-             <form>
-                <p><label>
-                    <input id="new_account_name" class="name"  type="text" placeholder="Enter Name"></label></p>
-                  <button class="nameButton" type= "button" value="Name">Submit Name</button>
-             </form>
-        </div>
-    </div>
     </section>
 </body>
 </html>
