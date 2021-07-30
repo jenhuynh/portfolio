@@ -10,6 +10,22 @@ body{
     color: white;
     line-height: 1.4;
 }
+/* navbar css */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .navbar li {
+    float: right;
+    display: inline;
+  }
+  li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 #landingPage {
     background-image:url('./img/blue_background.jpg');
     background-color: cornflowerblue;
