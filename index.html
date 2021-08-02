@@ -16,6 +16,7 @@
          <p class="headline">Former teacher turned Software Engineer</p>
          <a href="#about" class="button">Read More</a>
      </header>
+     <main>
     <section id="about">
         <nav>
             <ul class = "navbar" id="navChangeColor" >
@@ -30,8 +31,8 @@
             <p>There are two main ways I want to contribute to the tech industry: education and mentorship. I want to bring more knowledge and diversity into the tech industry by teaching and mentoring elementary and middle school-age students of low-income backgrounds in coding languages such as JavaScript.</p>
             <p>I also want to create change in the tech industry by making technology accessible and easy for people of color of all ages and genders to use in their daily lives. I strive to be more receptive and conscious of how technology apps or programs can be more economically accessible and friendly to others with limited storage, internet, or technology resources.</p>
             <p>I believe if we all bring in more diversity and people of all economic backgrounds, the income disparity gap will get slimmer.</p>
-                </p>
     </section>
+    </main>
     <div id="contact">
         <div class="row">
             <div class="column">
@@ -39,22 +40,23 @@
                 <p>Connect with me on GitHub:<a href="https://github.com/jenhuynh" target="_blank"> @jenhuynh</a></p>
                 <p>Connect with me on Twitter:<a href="https://twitter.com/JenHuynh19" target="_blank"> @jenhuynh19</a></p>
             </div>
-            <section>
+        </div>
+    <section>
             <div class="column">
                     <form id="form">
                     <p>Get in Contact with Jen!</p>
                     <!-- first name text form-->
-                    <p><label for="firstName">First Name:</label>
-                        <input type="text" id="new_first_name" class="firstName"  placeholder="Enter first name" name="firstname"required></p>
+                    <p><label for="new_first_name" >First Name:</label>
+                        <input type="text" id="new_first_name" class="firstName"  placeholder="Enter first name" name="firstname" required></p>
                     <button class="firstNameButton" type= "button" value="firstName">Submit First Name</button>
                     
                     <!-- last name text form -->
-                    <p><label for="lastName">Last Name:</label>
+                    <p><label for="new_last_name">Last Name:</label>
                         <input type="text" id="new_last_name" class="lastName" placeholder="Enter last name" name="lastname" required></p>
                     <button class="lastNameButton" type="button" value="lastName">Submit Last Name</button>
                     
                     <!-- email form -->
-                    <p><label for="email">Email:</label> 
+                    <p><label for="new_email">Email:</label> 
                         <input id ="new_email" class="email" type="text" placeholder="Enter Email" name="email" required></p>
                     <button class="emailButton" type= "button" value="email">Submit Email</button>
                     
@@ -62,8 +64,6 @@
                     </form>
                     <script src="script.js"></script>
                 </div>
-             </div>
-        </div>
     </section>
 </body>
 </html>
